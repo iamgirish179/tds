@@ -10,6 +10,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/")
-def test():
-    return {"status": "ok"}
+@app.get("/")
+def home():
+    return {"status": "running"}
