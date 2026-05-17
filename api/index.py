@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # Load telemetry data once
-with open("q-vercel-latency.json", "r") as f:
+with open("telemetry.json", "r") as f:
     telemetry = json.load(f)
 
 
