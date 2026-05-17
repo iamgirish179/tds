@@ -37,7 +37,7 @@ def percentile_95(values):
     return values[index]
 
 
-@app.post("/api/latency")
+@app.post("/latency")
 def analyze(data: RequestBody):
 
     result = {}
