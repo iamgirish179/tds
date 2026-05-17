@@ -1,0 +1,9 @@
+name: Hello World Action
+
+on: [push]
+
+jobs:
+  test:
+    steps:
+      - name: 25f1002053@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
